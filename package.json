@@ -1,0 +1,56 @@
+{
+  "name": "pencilblue-cli",
+  "description": "A command line interface for PencilBlue.",
+  "version": "0.3.0",
+  "homepage": "https://pencilblue.org",
+  "author": {
+    "name": "pencilblue",
+    "email": "info@pencilblue.org",
+    "url": "https://pencilblue.org"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/pencilblue/pencilblue-cli.git"
+  },
+  "bugs": {
+    "url": "https://github.com/pencilblue/pencilblue-cli/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://pencilblue.org/blob/master/LICENSE-MIT"
+    }
+  ],
+  "main": "lib/pencilblue-cli",
+  "engines": {
+    "node": ">= 4.4.7"
+  },
+  "scripts": {},
+  "keywords": [
+    "pencilblue",
+    "cms",
+    "cli",
+    "install"
+  ],
+  "preferGlobal": "true",
+  "bin": {
+    "pencilblue": "lib/pencilblue-cli.js",
+    "pbctrl": "lib/pencilblue-cli.js"
+  },
+  "dependencies": {
+    "cli-spinners": "^0.1.2",
+    "colors": "^1.1.2",
+    "forever": "^0.15.2",
+    "nodemon": "^1.9.2",
+    "process": "^0.11.5",
+    "prompt": "^1.0.0",
+    "q": "^1.4.1",
+    "shell": "^0.3.2"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "chai-as-promised": "^5.3.0",
+    "istanbul": "^0.4.4",
+    "mocha": "^2.5.3"
+  }
+}
