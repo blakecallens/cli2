@@ -15,12 +15,7 @@
   "bugs": {
     "url": "https://github.com/pencilblue/pencilblue-cli/issues"
   },
-  "licenses": [
-    {
-      "type": "MIT",
-      "url": "https://pencilblue.org/blob/master/LICENSE-MIT"
-    }
-  ],
+  "license": "MIT",
   "main": "lib/pencilblue-cli",
   "engines": {
     "node": ">= 4.4.7"
