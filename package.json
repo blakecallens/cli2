@@ -20,7 +20,9 @@
   "engines": {
     "node": ">= 4.4.7"
   },
-  "scripts": {},
+  "scripts": {
+    "docs": "node_modules/.bin/jsdoc --configure .jsdoc.json --verbose"
+  },
   "keywords": [
     "pencilblue",
     "cms",
@@ -33,10 +35,7 @@
     "pbctrl": "lib/pencilblue-cli.js"
   },
   "dependencies": {
-    "cli-spinners": "^0.1.2",
     "colors": "^1.1.2",
-    "forever": "^0.15.2",
-    "nodemon": "^1.9.2",
     "process": "^0.11.5",
     "prompt": "^1.0.0",
     "q": "^1.4.1",
@@ -46,6 +45,8 @@
     "chai": "^3.5.0",
     "chai-as-promised": "^5.3.0",
     "istanbul": "^0.4.4",
+    "jsdoc": "^3.4.0",
+    "minami": "^1.1.1",
     "mocha": "^2.5.3"
   }
 }
